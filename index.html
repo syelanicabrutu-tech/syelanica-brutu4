@@ -1,0 +1,104 @@
+
+     <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS PEMROGRAMAN I</title>
+    <style>
+        * {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 22px;
+            margin-bottom: 30px;
+            text-decoration: underline;
+        }
+        .data-pribadi {
+            margin-bottom: 20px;
+            font-size: 17px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-bottom: 25px;
+        }
+        th, td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+            font-size: 16px;
+        }
+        th {
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .form-item {
+            margin: 15px 0;
+            font-size: 17px;
+        }
+        input[type="text"], input[type="file"] {
+            padding: 6px;
+            margin-left: 8px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>TUGAS PEMROGRAMAN I</h1>
+
+    <!-- Bagian Data Pribadi -->
+    <div class="data-pribadi">
+        <p>NAMA  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" placeholder="Syelanica Olivia Br Brutu"></p>
+        <p>NIM  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:<input type="text" placeholder="250820006"></p>
+        <p>DATA PENDIDIKAN :</p>
+    </div>
+
+    <!-- Tabel Riwayat Pendidikan -->
+    <table>
+        <tr>
+            <th>TAHUN</th>
+            <th>PENDIDIKAN</th>
+            <th>ALAMAT</th>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="2013 - 2019"></td>
+            <td>SD</td>
+            <td><input type="text" placeholder="Jl. Lembaga Pemasyarakatan, Kelurahan Tanjung Gusta, Kecamatan Medan Helvetia, Kota Medan."></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="2019 - 2023"></td>
+            <td>SMP</td>
+            <td><input type="text" placeholder="Jl. Eka Prasetya No. 1 Medan, Kec. Medan Helvetia, Kota Medan, Prov. Sumatera Utara"></td>
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="2023 - 2025"></td>
+            <td>SMU/SMK</td>
+            <td><input type="text" placeholder="Jl. Eka Prasetya No. 1 Medan, Kec. Medan Helvetia, Kota Medan, Prov. Sumatera Utara"></td>
+        </tr>
+    </table>
+
+    <!-- Bagian Unggah File -->
+    <div class="form-item">
+        <p>Hobby &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Nonton Drakor
+        <input type="file" accept="image/*"></p>
+    </div>
+
+    <div class="form-item">
+        <p>Lagu kesukaan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Drop Dead 
+        <input type="file" accept="audio/*"></p>
+    </div>
+
+    <div class="form-item">
+        <p>Film kesukaan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: Family By Choice
+        <input type="file" accept="video/*"></p>
+    </div>
+
+</body>
+</html>
+    
